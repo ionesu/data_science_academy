@@ -1,4 +1,4 @@
-import LogicAndConditions.HW_LC_ToFill as toFill
+import HW_LC_ToFill as toFill
 score = 0
 
 if(hasattr(toFill, 'exampleOne') and callable(getattr(toFill, 'exampleOne'))):
