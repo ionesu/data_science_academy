@@ -1,4 +1,4 @@
-import Homework1.HW_String_P1_ToFill as toFill
+import HW_String_P1_ToFill as toFill
 
 score = 0
 
