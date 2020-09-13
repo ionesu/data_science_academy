@@ -1,4 +1,4 @@
-import H1_5.Homework1_5 as work
+import Homework1_5 as work
 
 
 simpleCount = 0
