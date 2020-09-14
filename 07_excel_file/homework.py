@@ -15,3 +15,5 @@ for col in sheet.iter_cols(min_row=2, min_col=2):
 print(arraymo1Value)
 print(nu.mean(arraymo1Value))
 print(nu.std(arraymo1Value))
+
+'/'
