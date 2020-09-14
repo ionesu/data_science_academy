@@ -10,7 +10,7 @@ fragment = "president"
 arrayNewText = []
 for i in varString:
     if "president" in i:
-        arrayNewText.append(i)
+        arrayNewText.append(i + ".")
 
 fileToWrite = open("newText.txt", "w")
 fileToWrite.writelines(arrayNewText)
