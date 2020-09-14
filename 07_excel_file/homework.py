@@ -1,15 +1,17 @@
 import openpyxl as xl
+import numpy as nu
 
 file = xl.load_workbook('Prices.xlsx')
 sheet = file.active
-#sheet = file.get_sheet_by_name('Sheet1')
-#print(sheet.iter_rows(min_row=2))
+#sheet.iter_cols(min_row=2, min_col=1)
+#sheet["B"]
 
+arraymo1Value = []
 
+for col in sheet.iter_cols(min_row=2, min_col=2):
+    for cell in col:
+        arraymo1Value.append(cell.value)
 
-# for row in sheet.iter_rows(min_row=2):
-#     if row[0].value:
-#         dateValue = row[0].value
-#         mo1Value = row[1].value
-
-for index value in column
+print(arraymo1Value)
+print(nu.mean(arraymo1Value))
+print(nu.std(arraymo1Value))
